@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+joblib
+shap
+xgboost
+scikit-learn
+anthropic>=0.86.0
+python-dotenv
+plotly

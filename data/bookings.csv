@@ -1,0 +1,13 @@
+booking_id,student_id,risk_score,advisor_type,date,time_slot,urgency,notes,ai_briefing,status,booked_at
+1E3C3366,344199,1.0000,Professional Advisor,2026-06-10,09:00–09:30,Immediate,,"**PRE-MEETING BRIEFING — STUDENT 344199**
+*Professional Advisor Use Only | Confidential*
+
+---
+
+Student 344199 (Male, 35–55, Module DDD) has been flagged following a significant and rapid drop in engagement: despite being active across 77 days of his programme, his participation has sharply declined in recent weeks, he has withdrawn from one module, and his active engagement has noticeably tapered — a pattern that often signals something meaningful has shifted in a student's life or motivation. His academic performance is solid at around 71%, which means this is less likely to be about academic capability and more likely to reflect something happening outside of — or alongside — his studies.
+
+In the meeting, listen carefully for **competing life pressures** such as work demands, caring responsibilities, or financial strain (common for mature students in this age band), and also **signs of disengagement from a sense of purpose or belonging** — for instance, whether he still feels the qualification is achievable or relevant to his goals.
+
+A trust-building opening question to consider: *""It's great to connect with you — how are you finding things at the moment, both on the programme and more generally?""*
+
+If the conversation surfaces anything beyond academic or pastoral support — such as indicators of significant personal distress, mental health concerns, or crisis — please follow your institution's referral pathway to student wellbeing or counselling services, and document accordingly; your role here is to listen, support, and connect, not to assess or advise beyond your remit.",Scheduled,2026-05-01T19:58:58.225053+00:00
