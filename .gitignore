@@ -33,3 +33,15 @@ data/studentVle.csv
 venv/
 env/
 .venv/
+
+# Node
+node_modules/
+app/frontend/dist/
+
+# Presentation / generated artifacts
+MentalHealth_EWS_Presentation.pptx
+PRESENTATION_SLIDES.md
+generate_ppt.py
+ui_design_reference.html
+proof.txt
+PROOF_Document_Heilmeier_Catechism*.docx

@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base typography ──────────────────────────────────────────────────────── */
+body {
+  font-family: 'Sora', sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Custom scrollbar ─────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: #334155; }
+
+/* ── Monospace data values ────────────────────────────────────────────────── */
+.data-value {
+  font-family: 'IBM Plex Mono', monospace;
+  font-feature-settings: 'tnum';
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Streaming cursor ─────────────────────────────────────────────────────── */
+@keyframes cursor-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.streaming-cursor { animation: cursor-blink 900ms step-end infinite; }
+
+/* ── Stat card accent line ────────────────────────────────────────────────── */
+.stat-accent-high  { border-top: 2px solid #f43f5e; }
+.stat-accent-med   { border-top: 2px solid #fb923c; }
+.stat-accent-low   { border-top: 2px solid #34d399; }
+.stat-accent-blue  { border-top: 2px solid #38bdf8; }
+.stat-accent-muted { border-top: 2px solid #334155; }
+
+/* ── Page entry animation ─────────────────────────────────────────────────── */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.page-enter { animation: fade-up 220ms ease-out both; }
+.page-enter-delay-1 { animation: fade-up 220ms 40ms  ease-out both; }
+.page-enter-delay-2 { animation: fade-up 220ms 80ms  ease-out both; }
+.page-enter-delay-3 { animation: fade-up 220ms 120ms ease-out both; }
+
+/* ── Table tweaks ─────────────────────────────────────────────────────────── */
+.table th {
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #64748b;
+  font-weight: 500;
+}
+
+/* ── Sidebar nav active ───────────────────────────────────────────────────── */
+.nav-active {
+  background: rgba(56, 189, 248, 0.08);
+  color: #38bdf8;
+  border-right: 2px solid #38bdf8;
+}
+.nav-item {
+  color: #64748b;
+  border-right: 2px solid transparent;
+  transition: all 150ms ease;
+}
+.nav-item:hover {
+  background: rgba(255,255,255,0.04);
+  color: #94a3b8;
+}
+
+/* ── Card base ────────────────────────────────────────────────────────────── */
+.panel {
+  background: #111827;
+  border: 1px solid #1a2235;
+  border-radius: 6px;
+}
+
+/* ── Risk badge dots ──────────────────────────────────────────────────────── */
+.risk-dot-high   { background: #f43f5e; }
+.risk-dot-med    { background: #fb923c; }
+.risk-dot-low    { background: #34d399; }

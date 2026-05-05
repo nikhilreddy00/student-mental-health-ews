@@ -302,6 +302,16 @@ Full technical documentation covering all 18 phases of the project — from data
 
 ---
 
+## 👥 Team
+
+| Name | Role |
+|---|---|
+| **Nikhil Kumar Reddy** | Lead Developer — ML pipeline, AI agents, dashboard |
+| **Nithin Sarva** | Contributor — Data analysis, model evaluation |
+| **Jyothika Priyanka** | Contributor — Research, documentation, evaluation |
+
+---
+
 ## 🙌 Acknowledgements
 
 - **Dataset:** [OULAD](https://analyse.kmi.open.ac.uk/open_dataset) — Kuzilek, J., Hlosta, M., & Zdrahal, Z. (2017). Open University Learning Analytics Dataset. *Scientific Data, 4*, 170171.
